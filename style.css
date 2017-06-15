@@ -1,0 +1,144 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#cover {
+  background: url("img/header2.jpg") no-repeat center bottom ;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 900px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+
+}
+
+.navigasi {
+  background-color: #FAFBFC;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+
+
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 15px 20px;
+  text-transform: uppercase;
+}
+ul a{
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+article{
+color: #14213D;
+font-size: 30px;
+font-family: sans-serif;
+text-align: center;
+}
+
+#logo {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  padding: 0px 50px;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 280px;
+  width: 70%;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+.batch a{
+  background-color: #939EA7;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 15px;
+  margin: 20px 10px;
+  float: left;
+}
+a:hover{
+  background-color: green;
+}
+
+.batch {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 20px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.tugas {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.blue {
+  color: #14213D !important;
+}
+
+footer{
+background-color: black;
+padding: 5px;
+color: #CCCCCC;
+text-align: center;
+width: 100%;
+}

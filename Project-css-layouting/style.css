@@ -1,0 +1,52 @@
+* {
+  font-family: 'Georgia', 'Times', serif;
+}
+* {
+  cursor: default;
+}
+header{
+}
+nav ul{
+  list-style: none;
+  float: right;
+}
+li a{
+  color: #4393FF;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 5px;
+}
+li{
+  display: inline;
+}
+section {
+background-image: url(img/sample-pattern.png);
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #3A4E62;
+}
+#article-list{
+  box-sizing: border-box;
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  border-color: #FFFFFF;
+}
+article {
+
+}
+
+article a{
+  color: #4393FF;
+  text-decoration: none;
+}
+
+footer{
+  background-color: black;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
